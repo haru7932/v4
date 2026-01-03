@@ -1,8 +1,8 @@
 -- Carregar a Library
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wx-sources/RedzLibV4/main/Source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/techwearhubofc/Redz/main/Source.lua"))()
 
 -- Funções da Library
-Library:SetTheme("Theme Name") -- Temas: https://raw.githubusercontent.com/REDzHUB/RedzLibV4/main/Themes.lua
+Library:SetTheme("Theme Name") -- Temas: https://raw.githubusercontent.com/techwearhubofc/Redz/main/Themes.lua
 Library:SetTransparency(0.1) -- Valores: 0 a 1
 Library:GetThemes() -- Retorna uma tabela com temas disponíveis
 Library:GetIcon("Icon Name")
