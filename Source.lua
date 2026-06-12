@@ -20,10 +20,7 @@ local redzLib = {
     ScrollSize = 160,
     TransparencyHub = 0.1
   },
-  Icons = loadstring(game:HttpGet("https://github.com/haru7932/v4/blob/main/Icons.lua"))() --[[
-    I found this source on fluent but I don't know who created it
-    source -- https://github.com/dawid-scripts/Fluent/blob/master/src/Icons.lua --
-  ]],
+  Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/haru7932/v4/refs/heads/main/Icons.lua"))(),
   SaveForTheme = {
     Stroke = {},
     Buttons = {},
