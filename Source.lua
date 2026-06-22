@@ -18,7 +18,7 @@ local redzLib = {
     Theme = "Default",
     UISize = {550, 310},
     ScrollSize = 160,
-    TransparencyHub = 0.1
+    TransparencyHub = 0
   },
   Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/haru7932/v4/refs/heads/main/Icons.lua"))(),
   SaveForTheme = {
