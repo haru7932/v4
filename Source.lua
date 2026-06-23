@@ -1080,7 +1080,7 @@ function redzLib:MakeWindow(Configs)
         AnchorPoint = Vector2.new(1, 0.5),
         Position = UDim2.new(1, -10, 0.5, 0),
         BackgroundTransparency = 1,
-        Image = "rbxassetid://121035659622295",
+        Image = "rbxassetid://10734934585",
         ImageColor3 = Theme["Color Stroke"]
       }), "Stroke")
       
@@ -1698,7 +1698,7 @@ function redzLib:MakeWindow(Configs)
         Size = UDim2.new(0, 16, 0, 16),
         Position = UDim2.new(0, -5, 0.5, 0),
         AnchorPoint = Vector2.new(1, 0.5),
-        Image = "rbxassetid://72510282085222",
+        Image = "rbxassetid://10709791523",
         BackgroundTransparency = 1,
         Rotation = 180,
         ImageColor3 = Theme["Color Stroke"]
