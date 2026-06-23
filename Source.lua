@@ -1695,7 +1695,7 @@ function redzLib:MakeWindow(Configs)
         Text = "..."
       }, {Corner()}), "Text")
       local Arrow = insertTheme(Create("ImageLabel", TextLabel2, {
-        Size = UDim2.new(0, 16, 0, 16),
+        Size = UDim2.new(0, 24, 0, 24),
         Position = UDim2.new(0, -5, 0.5, 0),
         AnchorPoint = Vector2.new(1, 0.5),
         Image = "rbxassetid://10709791523",
