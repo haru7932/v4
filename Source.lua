@@ -1262,7 +1262,7 @@ function redzLib:MakeWindow(Configs)
       
       local SliderIcon = insertTheme(Create("Frame", SliderBar, {
         Size = UDim2.new(0, 8, 2, 0),
-        BackgroundColor3 = Theme["Color Stroke"],
+        BackgroundColor3 = Theme["Color Text"],
         Position = UDim2.new(0.5, 0, 0.5, 0),
         AnchorPoint = Vector2.new(0.5, 0.5)
       }, {
