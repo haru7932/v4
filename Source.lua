@@ -1076,7 +1076,7 @@ function redzLib:MakeWindow(Configs)
       }), "Text")
       
       local ButtonIcon = insertTheme(Create("ImageLabel", Frame, {
-        Size = UDim2.new(0, 22, 0, 22),
+        Size = UDim2.new(0, 16, 0, 16),
         AnchorPoint = Vector2.new(1, 0.5),
         Position = UDim2.new(1, -10, 0.5, 0),
         BackgroundTransparency = 1,
@@ -1262,7 +1262,7 @@ function redzLib:MakeWindow(Configs)
       
       local SliderIcon = insertTheme(Create("Frame", SliderBar, {
         Size = UDim2.new(0, 8, 2, 0),
-        BackgroundColor3 = Theme["Color Text"],
+        BackgroundColor3 = Theme["Color Stroke"],
         Position = UDim2.new(0.5, 0, 0.5, 0),
         AnchorPoint = Vector2.new(0.5, 0.5)
       }, {
@@ -1695,7 +1695,7 @@ function redzLib:MakeWindow(Configs)
         Text = "..."
       }, {Corner()}), "Text")
       local Arrow = insertTheme(Create("ImageLabel", TextLabel2, {
-        Size = UDim2.new(0, 26, 0, 26),
+        Size = UDim2.new(0, 16, 0, 16),
         Position = UDim2.new(0, -5, 0.5, 0),
         AnchorPoint = Vector2.new(1, 0.5),
         Image = "rbxassetid://88612807682675",
