@@ -1080,7 +1080,7 @@ function redzLib:MakeWindow(Configs)
         AnchorPoint = Vector2.new(1, 0.5),
         Position = UDim2.new(1, -10, 0.5, 0),
         BackgroundTransparency = 1,
-        Image = "rbxassetid://10709791437",
+        Image = "rbxassetid://121035659622295",
         ImageColor3 = Theme["Color Stroke"]
       }), "Stroke")
       
@@ -1695,10 +1695,10 @@ function redzLib:MakeWindow(Configs)
         Text = "..."
       }, {Corner()}), "Text")
       local Arrow = insertTheme(Create("ImageLabel", TextLabel2, {
-        Size = UDim2.new(0, 24, 0, 24),
+        Size = UDim2.new(0, 26, 0, 26),
         Position = UDim2.new(0, -5, 0.5, 0),
         AnchorPoint = Vector2.new(1, 0.5),
-        Image = "rbxassetid://10709790948",
+        Image = "rbxassetid://88612807682675",
         BackgroundTransparency = 1,
         Rotation = 180,
         ImageColor3 = Theme["Color Stroke"]
